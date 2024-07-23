@@ -57,7 +57,7 @@ void loop() {
         delay(1000);    //turns back and goes
         stopMotors();
         delay(1000);
-		moveForward();
+	moveForward();
       }
     }
   } else {
