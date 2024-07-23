@@ -38,7 +38,7 @@ void loop() {
     stopMotors();
     delay(1000);
     rotateLeft();
-    delay(1000);   //rotates left
+    delay(200);   //rotates left
     stopMotors();
     delay(1000);
     distanceCm = getDistance();
@@ -46,7 +46,7 @@ void loop() {
       moveForward();
     } else {
       rotateRight();
-      delay(2000);   //rotates -180 degree i.e. right
+      delay(400);   //rotates -180 degree i.e. right
       stopMotors();
       delay(1000);
       distanceCm = getDistance();
@@ -54,7 +54,7 @@ void loop() {
         moveForward();
       } else {
 	rotateRight();
-        delay(1000);    //turns back and goes
+        delay(200);    //turns back and goes
         stopMotors();
         delay(1000);
 	moveForward();
