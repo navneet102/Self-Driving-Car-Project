@@ -5,12 +5,12 @@ int motorRightPin1 = 2;
 int motorRightPin2 = 4;
 int enableRightPin = 0;
  
-const int trigPin = 16;
-const int echoPin = 5;
+int trigPin = 16;
+int echoPin = 5;
  
 #define SOUND_SPEED 0.034
  
-const float thresholdDistance = 20.0;
+float thresholdDistance = 20.0;
  
 long duration;
 float distanceCm;
