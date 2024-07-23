@@ -53,7 +53,7 @@ void loop() {
       if (distanceCm >= thresholdDistance) {
         moveForward();
       } else {
-		rotateRight();
+	rotateRight();
         delay(1000);    //turns back and goes
         stopMotors();
         delay(1000);
